@@ -2,6 +2,7 @@
     --blanco: #FFFFFF;
     --negro: #111111;
     --gris: #343a40;
+    --transparente: transparent;
 
     --fuentePrincipal: 'Raleway', sans-serif;
 }
@@ -328,4 +329,27 @@ img{
         grid-column: 3/4;
         grid-row: 1/3;
     }  
+}
+/*seccion footer*/
+.footer{
+    height: 50rem;
+    background-image: url(../img/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.footer a{
+    color: var(--blanco);
+    font-size: 2rem;
+}
+.copyright{
+    background-color: var(--negro);
+    text-align: center;
+    font-size: 2rem;
+    margin: 5rem 0 0 0 ;
+    padding: 1rem;
 }
